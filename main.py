@@ -1,5 +1,6 @@
 import requests  
 import time  
+import PIL
 from PIL import Image  
 from io import BytesIO  
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton  
