@@ -1,7 +1,8 @@
 import requests  
 import time  
 import PIL
-from PIL import Image  
+import Image
+#from PIL import Image  
 from io import BytesIO  
 from telegram import Update, ReplyKeyboardMarkup, KeyboardButton  
 from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, MessageHandler, filters
